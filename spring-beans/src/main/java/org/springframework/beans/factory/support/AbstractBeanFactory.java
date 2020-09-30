@@ -195,6 +195,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
 	//---------------------------------------------------------------------
 	// Implementation of BeanFactory interface
+	// 这些getBean接口方法最终是通过doGetBean来实现
 	//---------------------------------------------------------------------
 
 	@Override
